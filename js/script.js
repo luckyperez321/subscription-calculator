@@ -31,5 +31,5 @@ else if (subType === "premium") {
 var total = subDuration * monthlyCost;
 //stopping at step 5 because I don't understand innertext 
 // Back this week.  Made a branch just incase. 
-result.innerText = `You have chosen a ${subDuration} month ${subType} plan for ${total}.`;
+result.innerText = `You have chosen a ${subDuration} month ${subType} plan for $${total}.`;
 };
